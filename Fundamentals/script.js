@@ -28,3 +28,30 @@ console.log(calcAge3(1996));
 
 console.log(calcRetirement(1996, 'Jonas'));
 */
+
+/****************************
+ * Debugging Tutorial
+ */
+
+const measureKelvin = function () {
+  const measurement = {
+    type: 'temp',
+    unit: 'celsius',
+
+    //C) Fix
+    value: Number(prompt('Enter Temperature: ')),
+  };
+
+  //B) Find
+  console.table(measurement);
+
+  //   console.log(measurement);
+  //   console.warn(measurement.unit);
+  //   console.error(measurement.value);
+
+  const kelvin = measurement.value + 273;
+  return kelvin;
+};
+
+//A) Identify
+console.log(measureKelvin());
