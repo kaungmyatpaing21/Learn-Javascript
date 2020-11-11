@@ -1,3 +1,3 @@
-### Learn-Javascript
+### Learn-Javascript-V1
 
-- This is my daily javascript practice codes.
+- This is my Javascript leaning progress version-1.
